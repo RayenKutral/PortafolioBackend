@@ -1,0 +1,13 @@
+package com.PortafolioMFV.mfv;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class MfvApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
