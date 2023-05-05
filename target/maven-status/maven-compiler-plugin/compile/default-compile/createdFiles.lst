@@ -4,7 +4,6 @@ com\PortafolioMFV\mfv\Security\DTO\JwtDto.class
 com\PortafolioMFV\mfv\Security\Service\UserDetailsImpl.class
 com\PortafolioMFV\mfv\Service\SExperiencia.class
 com\PortafolioMFV\mfv\Controller\CEstudios.class
-com\PortafolioMFV\mfv\Security\Enums\RolNombre.class
 com\PortafolioMFV\mfv\Controller\PersonaController.class
 com\PortafolioMFV\mfv\Security\DTO\LoginUsuario.class
 com\PortafolioMFV\mfv\Security\Jwt\JwtProvider.class
@@ -18,13 +17,10 @@ com\PortafolioMFV\mfv\Repository\REstudios.class
 com\PortafolioMFV\mfv\Dto\dtoExperiencia.class
 com\PortafolioMFV\mfv\Entity\Experiencia.class
 com\PortafolioMFV\mfv\Security\Jwt\JwtTokenFilter.class
-com\PortafolioMFV\mfv\Security\Repository\IUsuarioRepository.class
 com\PortafolioMFV\mfv\Entity\Estudios.class
-com\PortafolioMFV\mfv\Security\Entity\Rol.class
 com\PortafolioMFV\mfv\Service\SEstudios.class
 com\PortafolioMFV\mfv\Dto\dtoEstudios.class
 com\PortafolioMFV\mfv\Repository\IPersonaRepository.class
-com\PortafolioMFV\mfv\Security\Entity\Usuario.class
 com\PortafolioMFV\mfv\Security\Repository\iRolRepository.class
 com\PortafolioMFV\mfv\Service\ImpPersonaService.class
 com\PortafolioMFV\mfv\Security\Controller\Mensaje.class
