@@ -14,6 +14,7 @@ com\PortafolioMFV\mfv\Security\Service\RolService.class
 com\PortafolioMFV\mfv\Repository\RExperiencia.class
 com\PortafolioMFV\mfv\Security\Entity\UsuarioPrincipal.class
 com\PortafolioMFV\mfv\Controller\CExperiencia.class
+com\PortafolioMFV\mfv\WebConfig.class
 com\PortafolioMFV\mfv\Repository\REstudios.class
 com\PortafolioMFV\mfv\Dto\dtoExperiencia.class
 com\PortafolioMFV\mfv\Entity\Experiencia.class
@@ -32,4 +33,3 @@ com\PortafolioMFV\mfv\Entity\Persona.class
 com\PortafolioMFV\mfv\Security\Service\UsuarioService.class
 com\PortafolioMFV\mfv\Security\DTO\NuevoUsuario.class
 com\PortafolioMFV\mfv\Security\Controller\AuthController.class
-WebConfig.class
