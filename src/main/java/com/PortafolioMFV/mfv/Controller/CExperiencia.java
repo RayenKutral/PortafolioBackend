@@ -71,7 +71,7 @@ public class CExperiencia {
         }
         Experiencia experiencia = sExperiencia.getOne(id).get();
         experiencia.setNombreE(dtoexp.getNombreE());
-        experiencia.setDescripcionE((dtoexp.getDescripcionE()));
+        experiencia.setDescripcionE(dtoexp.getDescripcionE());
 
         sExperiencia.save(experiencia);
 
