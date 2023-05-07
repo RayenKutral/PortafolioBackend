@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("estudios")
-@CrossOrigin("https://backendmfv.onrender.com/")
+@CrossOrigin(origins ="https://backendmfv.onrender.com/")
 public class CEstudios {
 
     @Autowired
