@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.PortafolioMFV.mfv.MfvApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.657 s - in com.PortafolioMFV.mfv.MfvApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.066 s - in com.PortafolioMFV.mfv.MfvApplicationTests
