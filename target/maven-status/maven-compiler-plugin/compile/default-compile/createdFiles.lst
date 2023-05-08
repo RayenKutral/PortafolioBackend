@@ -17,7 +17,6 @@ com\PortafolioMFV\mfv\Entity\hys.class
 com\PortafolioMFV\mfv\Repository\RExperiencia.class
 com\PortafolioMFV\mfv\Security\Entity\UsuarioPrincipal.class
 com\PortafolioMFV\mfv\Controller\CExperiencia.class
-com\PortafolioMFV\mfv\WebConfig.class
 com\PortafolioMFV\mfv\Repository\REstudios.class
 com\PortafolioMFV\mfv\Dto\dtoExperiencia.class
 com\PortafolioMFV\mfv\Entity\Experiencia.class
