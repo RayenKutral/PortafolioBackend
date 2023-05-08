@@ -1,4 +1,3 @@
-
 package com.PortafolioMFV.mfv.Security;
 
 import com.PortafolioMFV.mfv.Security.Jwt.JwtEntryPoint;
@@ -17,13 +16,11 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-
-  
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity
 public class MainSecurity {
-    
+
     @Autowired
     JwtEntryPoint jwtEntryPoint;
 
@@ -56,5 +53,5 @@ public class MainSecurity {
 
         return http.build();
     }
-}
 
+}
