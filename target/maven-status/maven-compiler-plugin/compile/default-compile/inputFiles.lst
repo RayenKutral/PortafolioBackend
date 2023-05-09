@@ -25,6 +25,7 @@ C:\Users\labev\OneDrive\Desktop\Flor Programacion\Backend proyecto final\src\mai
 C:\Users\labev\OneDrive\Desktop\Flor Programacion\Backend proyecto final\src\main\java\com\PortafolioMFV\mfv\Security\Repository\iRolRepository.java
 C:\Users\labev\OneDrive\Desktop\Flor Programacion\Backend proyecto final\src\main\java\com\PortafolioMFV\mfv\Dto\dtoEstudios.java
 C:\Users\labev\OneDrive\Desktop\Flor Programacion\Backend proyecto final\src\main\java\com\PortafolioMFV\mfv\Repository\IPersonaRepository.java
+C:\Users\labev\OneDrive\Desktop\Flor Programacion\Backend proyecto final\src\main\java\com\PortafolioMFV\mfv\Dto\dtoPersona.java
 C:\Users\labev\OneDrive\Desktop\Flor Programacion\Backend proyecto final\src\main\java\com\PortafolioMFV\mfv\Security\Entity\UsuarioPrincipal.java
 C:\Users\labev\OneDrive\Desktop\Flor Programacion\Backend proyecto final\src\main\java\com\PortafolioMFV\mfv\Dto\dtohys.java
 C:\Users\labev\OneDrive\Desktop\Flor Programacion\Backend proyecto final\src\main\java\com\PortafolioMFV\mfv\Entity\Experiencia.java
@@ -35,5 +36,4 @@ C:\Users\labev\OneDrive\Desktop\Flor Programacion\Backend proyecto final\src\mai
 C:\Users\labev\OneDrive\Desktop\Flor Programacion\Backend proyecto final\src\main\java\com\PortafolioMFV\mfv\Security\Enums\RolNombre.java
 C:\Users\labev\OneDrive\Desktop\Flor Programacion\Backend proyecto final\src\main\java\com\PortafolioMFV\mfv\MfvApplication.java
 C:\Users\labev\OneDrive\Desktop\Flor Programacion\Backend proyecto final\src\main\java\com\PortafolioMFV\mfv\Repository\Rhys.java
-C:\Users\labev\OneDrive\Desktop\Flor Programacion\Backend proyecto final\src\main\java\com\PortafolioMFV\mfv\Interface\IPersonaService.java
 C:\Users\labev\OneDrive\Desktop\Flor Programacion\Backend proyecto final\src\main\java\com\PortafolioMFV\mfv\Service\SExperiencia.java

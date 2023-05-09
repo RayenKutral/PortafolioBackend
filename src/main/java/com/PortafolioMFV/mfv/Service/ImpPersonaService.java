@@ -1,40 +1,44 @@
-
 package com.PortafolioMFV.mfv.Service;
 
 import com.PortafolioMFV.mfv.Entity.Persona;
-import com.PortafolioMFV.mfv.Interface.IPersonaService;
-import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.PortafolioMFV.mfv.Repository.IPersonaRepository;
-
+import jakarta.transaction.Transactional;
+import java.util.List;
+import java.util.Optional;
 
 @Service
+@Transactional
+public class ImpPersonaService {
 
-public class ImpPersonaService implements IPersonaService{
+    @Autowired
+
+    IPersonaRepository ipersonaRepository;
+ public List<Persona> list(){
+        return ipersonaRepository.findAll();
+}
+    public Optional<Persona> getOne(int id){
+        return ipersonaRepository.findById(id);
+    }
     
-    @Autowired IPersonaRepository ipersonaRepository;
-
-    @Override
-    public List<Persona> getPersona() {
-        List<Persona> persona = ipersonaRepository.findAll();
-        return persona;
+    public Optional<Persona> getByNombre(String nombre){
+        return ipersonaRepository.findByNombre(nombre);
     }
-
-    @Override
-    public void savePersona(Persona persona) {
-       ipersonaRepository.save(persona);
+    
+    public void save(Persona persona){
+        ipersonaRepository.save(persona);
     }
-
-    @Override
-    public void deletePersona(Long id) {
+    public void delete(int id){
         ipersonaRepository.deleteById(id);
     }
-
-    @Override
-    public Persona findPersona(Long id) {
-     Persona persona = ipersonaRepository.findById(id).orElse(null);      
-     return persona;    
+    
+    public boolean existsById(int id){
+        return ipersonaRepository.existsById(id);
     }
     
-}
+    public boolean existsByNombre(String nombre){
+        return ipersonaRepository.existsByNombre(nombre);
+    }
+            }
+

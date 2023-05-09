@@ -10,8 +10,8 @@ com\PortafolioMFV\mfv\Security\DTO\LoginUsuario.class
 com\PortafolioMFV\mfv\Security\Jwt\JwtProvider.class
 com\PortafolioMFV\mfv\Service\Shys.class
 com\PortafolioMFV\mfv\Security\MainSecurity.class
-com\PortafolioMFV\mfv\Interface\IPersonaService.class
 com\PortafolioMFV\mfv\Security\Service\RolService.class
+com\PortafolioMFV\mfv\Dto\dtoPersona.class
 com\PortafolioMFV\mfv\Dto\dtohys.class
 com\PortafolioMFV\mfv\Entity\hys.class
 com\PortafolioMFV\mfv\Repository\RExperiencia.class
