@@ -5,6 +5,7 @@ com\PortafolioMFV\mfv\Security\Service\UserDetailsImpl.class
 com\PortafolioMFV\mfv\Service\SExperiencia.class
 com\PortafolioMFV\mfv\Controller\CEstudios.class
 com\PortafolioMFV\mfv\Security\Enums\RolNombre.class
+com\PortafolioMFV\mfv\MfvApplication$1.class
 com\PortafolioMFV\mfv\Controller\PersonaController.class
 com\PortafolioMFV\mfv\Security\DTO\LoginUsuario.class
 com\PortafolioMFV\mfv\Security\Jwt\JwtProvider.class
