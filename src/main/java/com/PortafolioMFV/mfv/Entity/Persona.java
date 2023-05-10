@@ -28,7 +28,7 @@ public class Persona{
      
     @NotNull
     private String descripcion;
-    
+     
     private String img;  
 
     public Persona() {
@@ -80,6 +80,7 @@ public class Persona{
     public void setImg(String img) {
         this.img = img;
     }
+
 
   
 }

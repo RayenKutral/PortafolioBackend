@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/personas")
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = "http://localhost:4200")
 public class PersonaController {
 
     @Autowired
@@ -42,6 +42,7 @@ public class PersonaController {
     }
 
     @PutMapping("/update/{id}")
+       
     public ResponseEntity<?> update(@PathVariable("id") int id, @RequestBody dtoPersona dtoper) {
         //vALIDAMOS SI EXISTE EL ID
         if (!personaService.existsById(id)) {
@@ -55,10 +56,15 @@ public class PersonaController {
         if (StringUtils.isBlank(dtoper.getNombre())) {
             return new ResponseEntity(new Mensaje("El nombre es obligatorio"), HttpStatus.BAD_REQUEST);
         }
+        
+        
         Persona persona = personaService.getOne(id).get();
+        
         persona.setNombre(dtoper.getNombre());
-        persona.setDescripcion((dtoper.getDescripcion()));
+        persona.setApellido(dtoper.getApellido());
+        persona.setDescripcion(dtoper.getDescripcion());
         persona.setImg(dtoper.getImg());
+        
         
         personaService.save(persona);
 
